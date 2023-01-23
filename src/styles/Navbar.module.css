@@ -1,0 +1,29 @@
+.container {
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;   
+}
+
+
+.navTitle {
+    color: white;
+    font-size: 40px;
+}
+
+.navLink {
+    margin: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    transition: 1.5s;
+}
+
+.navLink:hover {
+    color: #45f3ff;
+    font-size: 22px;
+    transition: 1s;
+    cursor: pointer;
+    text-shadow: 0 0 50px #45f3ff;
+}
